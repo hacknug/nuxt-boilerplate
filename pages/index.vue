@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title !text-[blue]">btm-frontend</h1>
+      <h1 class="title !text-[blue]">{{ $config.siteName }}</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
