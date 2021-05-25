@@ -1,50 +1,58 @@
+import baseConfig from './assets/nuxt.base.config.js'
+
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  ...baseConfig,
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'btm-frontend',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
+  plugins: [
+    '~/plugins/_filters',
+  ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    ['@nuxtjs/eslint-module', { cache: false }], // https://go.nuxtjs.dev/eslint
+    ['@nuxtjs/stylelint-module'], // https://go.nuxtjs.dev/stylelint
+
+    ['@nuxtjs/svg'], // https://github.com/nuxt-community/svg-module
+    ['@braid/vue-formulate/nuxt'], // https://vueformulate.com/guide/installation/#nuxt
+    ['@nuxtjs/tailwindcss'], // https://go.nuxtjs.dev/tailwindcss
+
+    ['@nuxtjs/sanity/module', { // https://sanity.nuxtjs.org
+      projectId: 'm76cfcma',
+      dataset: process.env.SANITY_DATASET || (process.env.NODE_ENV === 'development' ? 'staging' : 'production'),
+      minimal: true, // https://sanity.nuxtjs.org/configuration#minimal
+    }],
+
+    ...(process.env.NODE_ENV !== 'production'
+      ? ['@nuxtjs/html-validator']
+      : []
+    ),
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    ['portal-vue/nuxt'],
+
+    ['@nuxtjs/pwa', { // https://go.nuxtjs.dev/pwa
+      manifest: { lang: 'en' },
+    }],
+    ['@nuxtjs/gtm', {
+      id: undefined,
+      pageTracking: true,
+      // debug: true,
+    }],
+
+    ['@nuxtjs/sitemap', {
+      hostname: 'https://example.com',
+      // exclude: null,
+      trailingSlash: true,
+      gzip: true,
+    }],
+    ['@nuxtjs/robots', {
+      UserAgent: '*',
+      Sitemap: 'https://example.com/sitemap.xml',
+      ...(process.env.DEPLOY_ENV === 'production'
+        ? { Allow: '/', Disallow: '/secret-path/' }
+        : { Disallow: '/' }
+      ),
+    }],
   ],
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en',
-    },
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
 }

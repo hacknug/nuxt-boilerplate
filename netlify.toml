@@ -1,0 +1,9 @@
+[build]
+  publish = "dist"
+  command = "yarn generate"
+
+[context.production]
+  environment = { SANITY_DATASET = "production" }
+
+[context.staging]
+  environment = { SANITY_DATASET = "staging" }

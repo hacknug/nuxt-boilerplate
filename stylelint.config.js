@@ -1,6 +1,51 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
-  // add your custom config here
-  // https://stylelint.io/user-guide/configuration
-  rules: {},
+  extends: [
+    'stylelint-config-standard',
+    // 'stylelint-config-prettier',
+  ],
+  rules: {
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: [
+          'blockless-after-blockless',
+          'blockless-after-same-name-blockless',
+          'first-nested',
+        ],
+        ignore: ['after-comment', 'inside-block'],
+        ignoreAtRules: ['apply', 'screen', 'font-face', 'nest'],
+      },
+    ],
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'variants',
+          'responsive',
+          'apply',
+          'screen',
+          'layer',
+        ],
+      },
+    ],
+    'property-no-unknown': [
+      true,
+      {
+        ignoreProperties: ['font-path'],
+      },
+    ],
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: [
+          'range-track',
+          'range-thumb',
+          'range-lower',
+          'range-upper',
+        ],
+      },
+    ],
+    'selector-nested-pattern': '^&',
+  },
 }
