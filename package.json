@@ -15,6 +15,10 @@
     "lint": "yarn lint:js && yarn lint:style",
     "test": "jest"
   },
+  "resolutions": {
+    "@babel/core": "7.13.15",
+    "@babel/preset-env": "7.13.15"
+  },
   "dependencies": {
     "@braid/vue-formulate": "2.5.2",
     "@mapbox/mapbox-gl-geocoder": "4.7.1",
