@@ -54,14 +54,6 @@ export default {
 
   build: {
     // transpile: ['vue-final-modal'],
-    // babel: {
-    //   plugins: [
-    //     // FIXME: https://github.com/nuxt-community/storybook/issues/268#issuecomment-849639578
-    //     ['@babel/plugin-proposal-class-properties', { loose: true }],
-    //     ['@babel/plugin-proposal-private-property-in-object', { loose: true }],
-    //     ['@babel/plugin-proposal-private-methods', { loose: true }],
-    //   ],
-    // },
     postcss: {
       plugins: {
         'tailwindcss': join(__dirname, 'tailwind.config.js'),
