@@ -2077,10 +2077,10 @@
     minimatch "^3.0.4"
     sitemap "^4.1.1"
 
-"@nuxtjs/storybook@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/storybook/-/storybook-4.0.3.tgz#fc012a4eae4070e18cd30d9a48856f07c5f6eca6"
-  integrity sha512-4ZI5IX8wxAxYgL/MyT3HH3NWIxzBW4X7AdfXTHsYRgIkmnogFuZe7Zz/3SbeGNg91shU4u7J8wtdqcxzTHZjng==
+"@nuxtjs/storybook@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/storybook/-/storybook-4.0.4.tgz#7b44b41427e9beb19b10d048e03b112c3d7dbcd9"
+  integrity sha512-N/h63s+WKob7tiupoCBIhvFNv89FB7bHpU6Q/b+x5nXmdm+su/l6CiaNbI0WLxfWJC2Cfm7gHZu6xICdW2lGyg==
   dependencies:
     "@nuxt/devalue" "^1.2.5"
     "@nuxt/postcss8" "^1.1.3"
