@@ -1,5 +1,6 @@
 {
-  "name": "btm-frontend",
+  "name": "nuxt-boilerplate",
+  "description": "An opinionated starter template for Nuxt.js",
   "version": "1.0.0",
   "private": true,
   "scripts": {
