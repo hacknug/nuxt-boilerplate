@@ -41,6 +41,10 @@
     "@nuxtjs/svg": "0.1.12",
     "@nuxtjs/tailwindcss": "4.1.2",
     "@storybook/addon-a11y": "6.2.9",
+    "@tailwindcss/aspect-ratio": "0.2.1",
+    "@tailwindcss/forms": "0.3.2",
+    "@tailwindcss/line-clamp": "0.2.1",
+    "@tailwindcss/typography": "0.4.1",
     "@vue/test-utils": "1.2.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
@@ -61,6 +65,7 @@
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "22.0.0",
+    "tailwindcss-debug-screens": "2.0.0",
     "vue-jest": "3.0.7"
   }
 }

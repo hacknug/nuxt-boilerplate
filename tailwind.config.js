@@ -23,12 +23,32 @@ module.exports = {
         serif: [...defaultTheme.fontFamily.serif],
       },
     },
+
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        md: '2rem',
+        lg: '3rem',
+        xl: '4rem',
+      },
+    },
   },
 
   variants: {
     extend: {},
   },
 
-  plugins: [],
+  plugins: [
+    ...process.env.NODE_ENV !== 'production'
+      ? [require('tailwindcss-debug-screens')]
+      : [],
+
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
+    // require('tailwindcss-padding-safe')(),
+  ],
   purge: [],
 }
