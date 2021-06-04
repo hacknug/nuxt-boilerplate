@@ -16,6 +16,16 @@
 <script>
 export default {
   name: 'LayoutDefault',
+  head () {
+    return {
+      htmlAttrs: {
+        class: [
+          'text-black bg-white',
+          'dark:text-white dark:bg-black',
+        ],
+      },
+    }
+  },
   computed: {
     isProduction () {
       return process.env.NODE_ENV === 'production'

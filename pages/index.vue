@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <h1 class="title !text-[blue]">{{ `${$t('welcome')} ${$options.name}` }}</h1>
-  </div>
+  <article>
+    <header>
+      <h1>{{ `${$t('welcome')} ${$options.name}` }}</h1>
+    </header>
+    <section>
+      <p>{{ $config.siteDescription }}</p>
+    </section>
+  </article>
 </template>
 
 <script>

@@ -2,13 +2,12 @@
   <header class="w-full">
     <div :class="['container', 'flex items-center justify-between']">
       <div class="space-x-2">
-        <NuxtLink to="/">{{ $config.siteName }}</NuxtLink>
+        <NuxtLink class="text-[blue] dark:text-[lime]" to="/">{{ $config.siteName }}</NuxtLink>
       </div>
       <div class="space-x-2">
-        <p>{{ $config.siteDescription }}</p>
-      </div>
-      <div class="space-x-2">
-        <NuxtLink v-for="item in $i18n.locales" :key="item" :to="switchLocalePath(item)">{{ item }}</NuxtLink>
+        <template v-for="item in $i18n.locales">
+          <NuxtLink :key="item" :to="switchLocalePath(item)" :class="[$i18n.locale === item && 'opacity-50']">{{ item }}</NuxtLink>
+        </template>
       </div>
     </div>
   </header>

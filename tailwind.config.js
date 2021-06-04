@@ -14,7 +14,7 @@ const buildScaleFromSteps = (step = 4, limit = 64, _cb = pxToRem) => {
 
 module.exports = {
   mode: 'jit',
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
 
   theme: {
     extend: {
