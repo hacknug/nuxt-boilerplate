@@ -19,6 +19,7 @@
   "dependencies": {
     "@braid/vue-formulate": "2.5.2",
     "@mapbox/mapbox-gl-geocoder": "4.7.1",
+    "@nuxt/image": "0.4.14",
     "@nuxtjs/gtm": "2.4.0",
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/robots": "2.5.0",
@@ -29,6 +30,7 @@
     "filesize": "6.3.0",
     "mapbox-gl": "1.13.1",
     "nuxt": "2.15.6",
+    "nuxt-i18n": "6.27.0",
     "portal-vue": "2.1.7",
     "slugify": "1.5.3"
   },

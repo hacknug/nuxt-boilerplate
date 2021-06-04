@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="title !text-[blue]">{{ $options.name }}</h1>
+    <h1 class="title !text-[blue]">{{ `${$t('welcome')} ${$options.name}` }}</h1>
   </div>
 </template>
 

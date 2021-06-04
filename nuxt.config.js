@@ -16,8 +16,21 @@ export default {
     ['@braid/vue-formulate/nuxt'], // https://vueformulate.com/guide/installation/#nuxt
     ['@nuxtjs/tailwindcss'], // https://go.nuxtjs.dev/tailwindcss
 
+    ['nuxt-i18n', { // https://i18n.nuxtjs.org/
+      locales: ['en', 'es'],
+      defaultLocale: 'en',
+      vueI18n: {
+        fallbackLocale: 'en',
+        messages: {
+          en: { welcome: 'Welcome' },
+          es: { welcome: 'Bienvenido' },
+        },
+      },
+    }],
+
+    ['@nuxt/image', {}], // https://image.nuxtjs.org/
     ['@nuxtjs/sanity/module', { // https://sanity.nuxtjs.org
-      projectId: 'm76cfcma',
+      projectId: process.env.SANITY_PROJECT_ID,
       dataset: process.env.SANITY_DATASET || (process.env.NODE_ENV === 'development' ? 'staging' : 'production'),
       minimal: true, // https://sanity.nuxtjs.org/configuration#minimal
     }],
