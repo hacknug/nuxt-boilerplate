@@ -26,7 +26,7 @@
     "@nuxtjs/sanity": "0.9.4",
     "@nuxtjs/sitemap": "2.4.0",
     "@studiometa/vue-mapbox-gl": "1.4.7",
-    "core-js": "3.13.1",
+    "core-js": "3.14.0",
     "filesize": "6.3.0",
     "mapbox-gl": "1.13.1",
     "nuxt": "2.15.6",
