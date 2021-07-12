@@ -92,8 +92,8 @@ export default {
   },
 
   publicRuntimeConfig: {
-    siteName: process.env.npm_package_name || '',
-    siteDescription: process.env.npm_package_description || '',
+    siteName: process.env.npm_package_name,
+    siteDescription: process.env.npm_package_description,
   },
 
   // server: {
