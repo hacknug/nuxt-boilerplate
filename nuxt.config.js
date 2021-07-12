@@ -1,4 +1,11 @@
-import baseConfig from './assets/nuxt.config.js'
+import baseConfig, { screens } from './assets/nuxt.config.js'
+
+const sanityConfig = {
+  projectId: process.env.SANITY_PROJECT_ID,
+  dataset: process.env.SANITY_DATASET || (process.env.NODE_ENV === 'development' ? 'staging' : 'production'),
+  apiVersion: '2021-06-20',
+  useCdn: true, // TODO: Most likely to not work properly with `sanity-plugin-intl-input`'s default config.
+}
 
 export default {
   ...baseConfig,
@@ -29,10 +36,13 @@ export default {
       },
     }],
 
-    ['@nuxt/image', {}], // https://image.nuxtjs.org/
+    ['@nuxt/image', { // https://image.nuxtjs.org/
+      provider: 'sanity',
+      sanity: sanityConfig,
+      screens,
+    }],
     ['@nuxtjs/sanity/module', { // https://sanity.nuxtjs.org
-      projectId: process.env.SANITY_PROJECT_ID,
-      dataset: process.env.SANITY_DATASET || (process.env.NODE_ENV === 'development' ? 'staging' : 'production'),
+      ...sanityConfig,
       minimal: true, // https://sanity.nuxtjs.org/configuration#minimal
     }],
 

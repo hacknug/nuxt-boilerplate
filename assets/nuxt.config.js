@@ -17,6 +17,8 @@ export const prefixNegativeModifiers = (base, modifier) => {
   return startsWith(modifier, '-') ? `-${base}-${modifier.slice(1)}` : `${base}-${modifier}`
 }
 
+export const screens = Object.fromEntries(Object.entries(fullConfig.theme.screens).map(([name, w]) => ([name, Number(w.split('px').join(''))])))
+
 export default {
   target: 'static',
   components: true,
@@ -77,7 +79,11 @@ export default {
       "<div class='absolute inset-0 flex justify-center items-center flex-1 w-full h-full'><story /></div>",
     ],
     parameters: {
-      // statuses: { wonky: '#00f' },
+      // status: {
+      //   statuses: {
+      //     wonky: { color: '#fff', background: '#00f', description: 'Description of this custom status' },
+      //   },
+      // },
       options: {
         storySort: (a, b) => (a[1].kind === b[1].kind ? 0 : a[1].id.localeCompare(b[1].id, undefined, { numeric: true })),
       },
@@ -93,6 +99,7 @@ export default {
   },
 
   publicRuntimeConfig: {
+    // NOTE: Works with Netlify but Vercel will mess with your env variables.
     siteName: process.env.npm_package_name,
     siteDescription: process.env.npm_package_description,
   },
