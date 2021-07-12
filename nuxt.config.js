@@ -1,4 +1,4 @@
-import baseConfig from './assets/nuxt.base.config.js'
+import baseConfig from './assets/nuxt.config.js'
 
 export default {
   ...baseConfig,

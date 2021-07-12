@@ -26,13 +26,14 @@ export default {
   pageTransition: 'page',
 
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name,
     htmlAttrs: { lang: 'en' }, // TODO: Update for i18n
     meta: [
       { charset: 'utf-8' },
+      { hid: 'format-detection', name: 'format-detection', content: 'telephone=no' },
       { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { hid: 'og:site_name', property: 'og:site_name', content: process.env.npm_package_name || '' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description },
+      { hid: 'og:site_name', property: 'og:site_name', content: process.env.npm_package_name },
       { hid: 'og:type', property: 'og:type', content: 'website' },
     ],
     link: [
