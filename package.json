@@ -29,7 +29,7 @@
     "core-js": "3.13.1",
     "filesize": "6.3.0",
     "mapbox-gl": "1.13.1",
-    "nuxt": "2.15.6",
+    "nuxt": "2.15.7",
     "nuxt-i18n": "6.27.0",
     "portal-vue": "2.1.7",
     "slugify": "1.5.3"
