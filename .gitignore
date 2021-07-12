@@ -92,3 +92,4 @@ sw.*
 # Storybook files
 .nuxt-storybook
 storybook-static
+static/storybook
