@@ -6,6 +6,7 @@ export default {
   css: [],
   plugins: [
     '~/plugins/_filters',
+    '~/plugins/safari.client.js',
   ],
 
   buildModules: [
