@@ -32,7 +32,7 @@
     "nuxt": "2.15.7",
     "nuxt-i18n": "6.27.3",
     "portal-vue": "2.1.7",
-    "slugify": "1.5.3"
+    "slugify": "1.6.0"
   },
   "devDependencies": {
     "@etchteam/storybook-addon-status": "4.0.0",
