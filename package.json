@@ -30,7 +30,7 @@
     "filesize": "7.0.0",
     "mapbox-gl": "1.13.1",
     "nuxt": "2.15.7",
-    "nuxt-i18n": "6.27.3",
+    "nuxt-i18n": "6.28.0",
     "portal-vue": "2.1.7",
     "slugify": "1.6.0"
   },
