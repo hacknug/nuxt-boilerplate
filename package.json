@@ -27,7 +27,7 @@
     "@nuxtjs/sitemap": "2.4.0",
     "@studiometa/vue-mapbox-gl": "1.4.7",
     "core-js": "3.17.3",
-    "filesize": "8.0.2",
+    "filesize": "8.0.3",
     "mapbox-gl": "1.13.1",
     "nuxt": "2.15.8",
     "nuxt-i18n": "6.28.1",
