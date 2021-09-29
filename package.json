@@ -45,7 +45,7 @@
     "@nuxtjs/tailwindcss": "4.2.1",
     "@storybook/addon-a11y": "6.3.8",
     "@tailwindcss/aspect-ratio": "0.2.1",
-    "@tailwindcss/forms": "0.3.3",
+    "@tailwindcss/forms": "0.3.4",
     "@tailwindcss/line-clamp": "0.2.1",
     "@tailwindcss/typography": "0.4.1",
     "@vue/test-utils": "1.2.2",
