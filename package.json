@@ -28,7 +28,7 @@
     "@studiometa/vue-mapbox-gl": "1.4.7",
     "core-js": "3.18.3",
     "filesize": "8.0.3",
-    "mapbox-gl": "1.13.1",
+    "mapbox-gl": "1.13.2",
     "nuxt": "2.15.8",
     "nuxt-i18n": "6.28.1",
     "portal-vue": "2.1.7",
