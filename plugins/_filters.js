@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import slugify from 'slugify'
 import filesize from 'filesize'
-import { kebabCase } from 'lodash'
+import kebabCase from 'lodash/kebabCase'
 
 // NOTE: https://github.com/freearhey/vue2-filters#currency
 
