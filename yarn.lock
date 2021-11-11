@@ -1292,10 +1292,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@etchteam/storybook-addon-status@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@etchteam/storybook-addon-status/-/storybook-addon-status-4.0.0.tgz#299b36062084e285fd4ebb627cd0cce0d5c63303"
-  integrity sha512-CK69kfB/0HKSwMpnt7sC24h2sNFqPcCX/+o2CCOi6PP7ERqoqmy+DbnqLNtxYdshEJXs5pd6k5admbzpnZkevw==
+"@etchteam/storybook-addon-status@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@etchteam/storybook-addon-status/-/storybook-addon-status-4.1.0.tgz#d7ca789eaa8e8aebba1ec7956b41a007815959df"
+  integrity sha512-hEwtOls1TNnsDLsvWEF5hhOTC2ud+Zjz8Zhy6N45tCtr7eN3rEd261d4PX9WVeYOokgwIC61Y469Jh0BjEsALg==
   dependencies:
     "@storybook/addons" "^6.2.9"
     "@storybook/api" "^6.2.9"
