@@ -58,7 +58,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-vue": "8.1.1",
     "jest": "27.4.2",
-    "postcss": "8.4.1",
+    "postcss": "8.4.4",
     "postcss-easing-gradients": "3.0.1",
     "postcss-viewport-height-correction": "1.1.1",
     "prettier": "2.5.0",
