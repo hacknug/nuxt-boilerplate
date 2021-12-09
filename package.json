@@ -61,7 +61,7 @@
     "postcss": "8.4.4",
     "postcss-easing-gradients": "3.0.1",
     "postcss-viewport-height-correction": "1.1.1",
-    "prettier": "2.5.0",
+    "prettier": "2.5.1",
     "storybook-addon-pseudo-states": "1.0.0",
     "storybook-dark-mode": "1.0.8",
     "storybook-mobile": "1.0.0",
