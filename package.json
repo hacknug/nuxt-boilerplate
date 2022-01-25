@@ -17,7 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@braid/vue-formulate": "2.5.2",
+    "@braid/vue-formulate": "2.5.3",
     "@mapbox/mapbox-gl-geocoder": "4.7.4",
     "@nuxt/image": "0.6.0",
     "@nuxtjs/gtm": "2.4.0",
