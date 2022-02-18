@@ -63,7 +63,7 @@
     "postcss-viewport-height-correction": "1.1.1",
     "prettier": "2.5.1",
     "storybook-addon-pseudo-states": "1.0.0",
-    "storybook-dark-mode": "1.0.8",
+    "storybook-dark-mode": "1.0.9",
     "storybook-mobile": "1.0.0",
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "9.0.3",
