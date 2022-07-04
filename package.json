@@ -19,7 +19,7 @@
   "dependencies": {
     "@braid/vue-formulate": "2.5.3",
     "@mapbox/mapbox-gl-geocoder": "4.7.4",
-    "@nuxt/image": "0.6.2",
+    "@nuxt/image": "0.7.1",
     "@nuxtjs/gtm": "2.4.0",
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/robots": "2.5.0",
