@@ -56,7 +56,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-nuxt": "3.2.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-vue": "9.2.0",
+    "eslint-plugin-vue": "9.3.0",
     "jest": "28.1.3",
     "postcss": "8.4.16",
     "postcss-easing-gradients": "3.0.1",
