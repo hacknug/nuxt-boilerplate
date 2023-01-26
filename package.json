@@ -43,7 +43,7 @@
     "@nuxtjs/storybook": "4.3.2",
     "@nuxtjs/stylelint-module": "4.0.0",
     "@nuxtjs/svg": "0.4.0",
-    "@nuxtjs/tailwindcss": "4.2.1",
+    "@nuxtjs/tailwindcss": "6.3.0",
     "@storybook/addon-a11y": "6.5.14",
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@tailwindcss/forms": "0.3.4",
