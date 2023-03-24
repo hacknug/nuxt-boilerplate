@@ -37,7 +37,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "7.19.1",
     "@etchteam/storybook-addon-status": "4.2.0",
-    "@nuxtjs/eslint-config": "11.0.0",
+    "@nuxtjs/eslint-config": "12.0.0",
     "@nuxtjs/eslint-module": "3.1.0",
     "@nuxtjs/html-validator": "0.7.1",
     "@nuxtjs/storybook": "4.3.2",
