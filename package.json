@@ -65,7 +65,7 @@
     "storybook-addon-pseudo-states": "1.15.1",
     "storybook-dark-mode": "1.1.2",
     "storybook-mobile": "1.0.0",
-    "stylelint": "13.13.1",
+    "stylelint": "15.10.1",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard": "22.0.0",
     "tailwindcss-debug-screens": "2.2.1",
