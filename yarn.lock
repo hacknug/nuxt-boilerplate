@@ -15830,10 +15830,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.12.0.tgz#e1f1b7e1a59b6083b2596a8d067f6ee88fd4d3cf"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
 
-storybook-addon-pseudo-states@1.15.1:
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-1.15.1.tgz#2a03b8a7c307be63ec10595c490b6c76673caa0e"
-  integrity sha512-GRBf63wRHoFwN65hRTdTaIcE7jn2Yj2B/dNyj03o8TRBevnmOL80NfLAGsmDYP4a7Ye3kBkILX952aUkK4P+ZA==
+storybook-addon-pseudo-states@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-3.0.1.tgz#3efb612c4d1ba740abd5ff6955a5c6c15eb90364"
+  integrity sha512-ciHKl08CXU1Xf9ABbxvZB5KimHO/OpC9PtHpBLIC7R8TWHsdpFHku1zuK9opx1+hXw61woUrbh4cJ5Bn2lTXRw==
 
 storybook-dark-mode@1.1.2:
   version "1.1.2"
