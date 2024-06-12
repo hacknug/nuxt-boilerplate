@@ -50,19 +50,21 @@ export default {
   build: {
     // transpile: ['vue-final-modal'],
     postcss: {
-      plugins: {
-        'tailwindcss': join(__dirname, 'tailwind.config.js'),
-        'postcss-easing-gradients': {},
-        'postcss-viewport-height-correction': {},
+      postcssOptions: {
+        plugins: {
+          'tailwindcss': join(__dirname, 'tailwind.config.js'),
+          'postcss-easing-gradients': {},
+          'postcss-viewport-height-correction': {},
+        },
+        order: [
+          'postcss-import',
+          'tailwindcss',
+          'postcss-easing-gradients',
+          'postcss-preset-env',
+          'postcss-viewport-height-correction',
+          'cssnano',
+        ],
       },
-      order: [
-        'postcss-import',
-        'tailwindcss',
-        'postcss-easing-gradients',
-        'postcss-preset-env',
-        'postcss-viewport-height-correction',
-        'cssnano',
-      ],
     },
   },
 

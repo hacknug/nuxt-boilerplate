@@ -13,9 +13,6 @@ const buildScaleFromSteps = (step = 4, limit = 64, _cb = pxToRem) => {
 }
 
 module.exports = {
-  mode: 'jit',
-  darkMode: 'media', // or 'media' or 'class'
-
   theme: {
     extend: {
       fontFamily: {
@@ -35,10 +32,6 @@ module.exports = {
     },
   },
 
-  variants: {
-    extend: {},
-  },
-
   plugins: [
     ...process.env.NODE_ENV !== 'production'
       ? [require('tailwindcss-debug-screens')]
@@ -46,9 +39,8 @@ module.exports = {
 
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
     require('@tailwindcss/aspect-ratio'),
     // require('tailwindcss-padding-safe')(),
   ],
-  purge: [],
+  content: [],
 }
