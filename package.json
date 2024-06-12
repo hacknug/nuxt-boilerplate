@@ -5,9 +5,9 @@
   "packageManager": "yarn@1.22.22",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --hostname '0'",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nuxt start --hostname '0'",
     "generate": "nuxt generate",
     "storybook": "nuxt storybook",
     "storybook:build": "rm -r static/storybook && nuxt storybook build && mv storybook-static static/storybook",
