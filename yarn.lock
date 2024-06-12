@@ -6396,9 +6396,9 @@ commondir@^1.0.1:
   integrity sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==
 
 compatx@^0.1.3:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/compatx/-/compatx-0.1.4.tgz#4e0fe4a1219dd8fba69c0874131a252f0cde7b2c"
-  integrity sha512-CJnXSACI2xN8rEY2EwhD1Lsnb9YRu436HorC0JpjkBmIQlldNrpykoCXYWRP7oQ73jfpa3+PgzaGna2G95GVIw==
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/compatx/-/compatx-0.1.5.tgz#d174869ce9fbcd893081d8407113e709e77ca702"
+  integrity sha512-6L25B4bAzQn7NGWCUBUf+khD2FTMaq45PVpE8SW/MigLaJhYhtoO/ecXgqjcwlDvOGKkDTHKmMg7EJbzuiwOMQ==
 
 component-emitter@^1.2.1:
   version "1.3.1"
@@ -14393,11 +14393,6 @@ pug-code-gen@^3.0.3:
     with "^7.0.0"
 
 pug-error@^2.0.0, pug-error@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/pug-error/-/pug-error-2.1.0.tgz#17ea37b587b6443d4b8f148374ec27b54b406e55"
-  integrity sha512-lv7sU9e5Jk8IeUheHata6/UThZ7RK2jnaaNztxfPYUY+VxZyk/ePVaNZ/vwmH8WqGvDz3LrNYt/+gA55NDg6Pg==
-
-pug-error@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/pug-error/-/pug-error-2.1.0.tgz#17ea37b587b6443d4b8f148374ec27b54b406e55"
   integrity sha512-lv7sU9e5Jk8IeUheHata6/UThZ7RK2jnaaNztxfPYUY+VxZyk/ePVaNZ/vwmH8WqGvDz3LrNYt/+gA55NDg6Pg==
