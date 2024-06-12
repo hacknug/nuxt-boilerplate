@@ -15,7 +15,10 @@
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
-    "test": "jest"
+    "test": "jest",
+    "update:major": "nlx taze major -r -l -I",
+    "update:minor": "nlx taze minor -r -l -I",
+    "update:patch": "nlx taze patch -r -l -I"
   },
   "dependencies": {
     "@braid/vue-formulate": "2.5.3",
