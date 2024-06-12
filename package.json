@@ -2,6 +2,7 @@
   "name": "nuxt-boilerplate",
   "description": "An opinionated starter template for Nuxt.js",
   "version": "1.0.0",
+  "packageManager": "yarn@1.22.22",
   "private": true,
   "scripts": {
     "dev": "nuxt",
