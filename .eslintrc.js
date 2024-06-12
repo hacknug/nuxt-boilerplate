@@ -31,4 +31,9 @@ module.exports = {
     'vue/singleline-html-element-content-newline': [0],
     'vue/max-attributes-per-line': [0],
   },
+  ignorePatterns: [
+    'dist',
+    'storybook-static',
+    'storybook',
+  ],
 }

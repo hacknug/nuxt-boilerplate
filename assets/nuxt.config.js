@@ -76,9 +76,10 @@ export default {
       'storybook-addon-pseudo-states',
       'storybook-dark-mode/register',
       '@etchteam/storybook-addon-status/register',
+      'storybook-addon-turbo-build',
     ],
     decorators: [
-      "<div class='absolute inset-0 flex justify-center items-center flex-1 w-full h-full'><story /></div>",
+      "<div class='absolute inset-0 flex justify-center items-center flex-1 w-full h-full'><div class='container'><story /></div><PortalTarget name='modal' multiple /></div>",
     ],
     parameters: {
       // status: {
@@ -87,7 +88,13 @@ export default {
       //   },
       // },
       options: {
-        storySort: (a, b) => (a[1].kind === b[1].kind ? 0 : a[1].id.localeCompare(b[1].id, undefined, { numeric: true })),
+        storySort: {
+          method: 'alphabetical',
+          // order: [],
+          // includeName: true,
+          // locales: '',
+        },
+        // storySort: (a, b) => (a[1].kind === b[1].kind ? 0 : a[1].id.localeCompare(b[1].id, undefined, { numeric: true })),
       },
       backgrounds: {
         default: 'transparent',
