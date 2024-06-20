@@ -27,7 +27,7 @@
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/robots": "2.5.0",
     "@nuxtjs/sanity": "0.10.0",
-    "@nuxtjs/sitemap": "2.4.0",
+    "@nuxtjs/sitemap": "5.2.0",
     "core-js": "3.37.1",
     "filesize": "10.1.2",
     "nuxt": "2.17.4",
