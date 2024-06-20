@@ -2501,13 +2501,13 @@
     untyped "^0.2.5"
     upath "^2.0.1"
 
-"@nuxt/kit@^3.11.2":
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.12.1.tgz#cdd083850da676cf90ff1629f253ed00198e5449"
-  integrity sha512-PHONuNCMqi3FYp0abgkhF3iH1j6CznJLMLpa8qxDGH532ALDcR1ThxbxytTA3fPiYulG2KenK8jloDfNdXOfCA==
+"@nuxt/kit@^3.10.1", "@nuxt/kit@^3.11.2":
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.12.2.tgz#762cf62af4762c035a1f73965832e80e66005f5f"
+  integrity sha512-5kOqEzfc3FsAncjK2je7vuq4/QsR5ypViTnop52mlFLf0Ku1NMCrWCSWYowAh4P0yqTACMAZYa+HdRZHscU84g==
   dependencies:
-    "@nuxt/schema" "3.12.1"
-    c12 "^1.10.0"
+    "@nuxt/schema" "3.12.2"
+    c12 "^1.11.1"
     consola "^3.2.3"
     defu "^6.1.4"
     destr "^2.0.3"
@@ -2561,12 +2561,12 @@
     postcss-url "^10.1.1"
     semver "^7.3.4"
 
-"@nuxt/schema@3.12.1":
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.12.1.tgz#27a05e9413771465e62600c9cc69495375285fa4"
-  integrity sha512-yPgZVczd0vKhG73E7N61+EZHZTjtCvh2LKVhvT7c69zLBnPPqJNK1oJfqsKUCOOHSm1o1rTG8Xaibp91q2I49w==
+"@nuxt/schema@3.12.2":
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.12.2.tgz#dc2c3bced5a6965075dabfb372dd2f77bb3b33c6"
+  integrity sha512-IRBuOEPOIe1CANKnO2OUiqZ1Hp/0htPkLaigK7WT6ef/SdIFZUd68Tqqejqy2AFrbgU9G80k3U7eg2XUdaiQlQ==
   dependencies:
-    compatx "^0.1.3"
+    compatx "^0.1.8"
     consola "^3.2.3"
     defu "^6.1.4"
     hookable "^5.5.3"
@@ -2840,13 +2840,16 @@
     postcss "^8.4.14"
     vue-loader "^15.9.8"
 
-"@nuxtjs/stylelint-module@4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/stylelint-module/-/stylelint-module-4.2.2.tgz#da60accf608083b959a585b473462b905949950e"
-  integrity sha512-zUEPuAS8XxFJaByZ2B/4gutQyhxGZiKmOiNn24NK1sNbzp35sDI/Zz+rmdvUG8DNIRovC7BI+07W8EEdF27+JQ==
+"@nuxtjs/stylelint-module@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/stylelint-module/-/stylelint-module-5.2.0.tgz#d192f3f6f90a18ada6f242448a234bcc47db297a"
+  integrity sha512-CMGZORt5fM1pK+5Xj3p2uajkK9DZ9Sja7jewXa8LZFNMjt7GIsKaoAvH4poCUMorhIVBS0lGQZ9BlRmg3MWxvg==
   dependencies:
-    consola "^3.2.3"
-    stylelint-webpack-plugin "^2.5.0"
+    "@nuxt/kit" "^3.10.1"
+    chokidar "^3.5.3"
+    pathe "^1.1.2"
+    stylelint-webpack-plugin "^5.0.0"
+    vite-plugin-stylelint "^5.3.1"
 
 "@nuxtjs/svg@0.4.1":
   version "0.4.1"
@@ -5814,10 +5817,10 @@ bytes@3.1.2:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
   integrity sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==
 
-c12@^1.10.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/c12/-/c12-1.11.0.tgz#928aed3b9302622ab8693f202f7ac955153249f1"
-  integrity sha512-38Q1gY14ArFyQAtrFKNffmkavlO1/QFMFgq7iYlqwgCLVl3ydqqGHAPuTWs6T6O2XERtWKfY5umYUw9J5oQDTw==
+c12@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/c12/-/c12-1.11.1.tgz#d5244e95407af450a523e44eb57e5b87b82f8677"
+  integrity sha512-KDU0TvSvVdaYcQKQ6iPHATGz/7p/KiVjPg4vQrB6Jg/wX9R0yl5RZxWm9IoZqaIHD2+6PZd81+KMGwRr/lRIUg==
   dependencies:
     chokidar "^3.6.0"
     confbox "^0.1.7"
@@ -6395,10 +6398,10 @@ commondir@^1.0.1:
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==
 
-compatx@^0.1.3:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/compatx/-/compatx-0.1.5.tgz#d174869ce9fbcd893081d8407113e709e77ca702"
-  integrity sha512-6L25B4bAzQn7NGWCUBUf+khD2FTMaq45PVpE8SW/MigLaJhYhtoO/ecXgqjcwlDvOGKkDTHKmMg7EJbzuiwOMQ==
+compatx@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/compatx/-/compatx-0.1.8.tgz#af6f61910ade6ce1073c0fdff23c786bcd75c026"
+  integrity sha512-jcbsEAR81Bt5s1qOFymBufmCbXCXbk0Ql+K5ouj6gCyx2yHlu6AgmGIi9HxfKixpUDO5bCFJUHQ5uM6ecbTebw==
 
 component-emitter@^1.2.1:
   version "1.3.1"
@@ -10882,15 +10885,6 @@ jest-worker@^27.4.5, jest-worker@^27.5.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest-worker@^28.1.3:
-  version "28.1.3"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-28.1.3.tgz#7e3c4ce3fa23d1bb6accb169e7f396f98ed4bb98"
-  integrity sha512-CqRA220YV/6jCo8VWvAt1KKx6eek1VIHMPeLEbpcfSfkEeWyBNppynM/o6q+Wmw+sOhos2ml34wZbSX3G13//g==
-  dependencies:
-    "@types/node" "*"
-    merge-stream "^2.0.0"
-    supports-color "^8.0.0"
-
 jest-worker@^29.7.0:
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.7.0.tgz#acad073acbbaeb7262bd5389e1bcf43e10058d4a"
@@ -15298,7 +15292,7 @@ schema-utils@^3.0.0, schema-utils@^3.1.1, schema-utils@^3.2.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
-schema-utils@^4.0.0:
+schema-utils@^4.0.0, schema-utils@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-4.2.0.tgz#70d7c93e153a273a805801882ebd3bff20d89c8b"
   integrity sha512-L0jRsrPpjdckP3oPug3/VxNKt2trR8TcabrM6FOAAlvC/9Phcmm+cuAgTlxBqdBR1WJx7Naj9WHw+aOmheSVbw==
@@ -16227,17 +16221,16 @@ stylelint-config-standard@22.0.0:
   dependencies:
     stylelint-config-recommended "^5.0.0"
 
-stylelint-webpack-plugin@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/stylelint-webpack-plugin/-/stylelint-webpack-plugin-2.5.0.tgz#8dd1e8db5adfea7895c475af9ff0e9e386b6a93e"
-  integrity sha512-UX+A4FzHM98VI+mnN4ZGDXnDOf3RC4+xk26nyveUQmIDx43dFYbZQHsZNVFl17La9+VQFpwOHh3c5Zv/kwAI3g==
+stylelint-webpack-plugin@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-webpack-plugin/-/stylelint-webpack-plugin-5.0.1.tgz#13a7589a8d4cc00b155b9f792876334ca0bcaf71"
+  integrity sha512-07lpo1uVoFctKv0EOOg/YSrUppcLMjNBSMRqgooNnlbfAOgQfMzvLK+EbXz0HQiEgZobr+XQX9md/TgwTGdzbw==
   dependencies:
-    arrify "^2.0.1"
     globby "^11.1.0"
-    jest-worker "^28.1.3"
+    jest-worker "^29.7.0"
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
-    schema-utils "^3.1.1"
+    schema-utils "^4.2.0"
 
 stylelint@13.13.1:
   version "13.13.1"
@@ -17539,6 +17532,15 @@ vfile@^4.0.0:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
+
+vite-plugin-stylelint@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-stylelint/-/vite-plugin-stylelint-5.3.1.tgz#1e9e3ab42217cc79e50914158626c617e2115a64"
+  integrity sha512-M/hSdfOwnOVghbJDeuuYIU2xO/MMukYR8QcEyNKFPG8ro1L+DlTdViix2B2d/FvAw14WPX88ckA5A7NvUjJz8w==
+  dependencies:
+    "@rollup/pluginutils" "^5.1.0"
+    chokidar "^3.5.3"
+    debug "^4.3.4"
 
 vm-browserify@^1.0.1:
   version "1.1.2"
