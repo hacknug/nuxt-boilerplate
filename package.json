@@ -30,7 +30,7 @@
     "@nuxtjs/sitemap": "2.4.0",
     "core-js": "3.37.1",
     "filesize": "10.1.2",
-    "nuxt": "2.17.3",
+    "nuxt": "2.17.4",
     "nuxt-i18n": "6.28.1",
     "portal-vue": "2.1.7",
     "slugify": "1.6.6"
