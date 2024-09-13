@@ -25,7 +25,7 @@
     "@nuxt/image": "0.7.2",
     "@nuxtjs/gtm": "2.4.0",
     "@nuxtjs/pwa": "3.3.5",
-    "@nuxtjs/robots": "2.5.0",
+    "@nuxtjs/robots": "4.1.7",
     "@nuxtjs/sanity": "0.10.0",
     "@nuxtjs/sitemap": "2.4.0",
     "core-js": "3.37.1",
