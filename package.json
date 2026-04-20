@@ -36,7 +36,7 @@
     "slugify": "1.6.6"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.24.7",
+    "@babel/eslint-parser": "7.28.6",
     "@etchteam/storybook-addon-status": "4.2.2",
     "@nuxtjs/eslint-config": "12.0.0",
     "@nuxtjs/eslint-module": "3.1.0",
