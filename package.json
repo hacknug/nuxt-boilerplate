@@ -71,7 +71,7 @@
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard": "22.0.0",
-    "tailwindcss-debug-screens": "2.2.1",
+    "tailwindcss-debug-screens": "3.0.1",
     "vue-jest": "3.0.7"
   }
 }
