@@ -59,7 +59,7 @@
     "eslint-plugin-nuxt": "4.0.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-vue": "9.33.0",
-    "jest": "29.7.0",
+    "jest": "30.4.2",
     "postcss": "8.5.18",
     "postcss-easing-gradients": "3.0.1",
     "postcss-viewport-height-correction": "1.1.1",
